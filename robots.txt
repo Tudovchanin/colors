@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://ваш-домен.ру/sitemap.xml
+Sitemap: https://tudovchanin.github.io/colors/sitemap.xml
