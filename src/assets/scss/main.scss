@@ -1,0 +1,33 @@
+@use "./reset";
+@use "variables";
+@use "./helpers";
+
+@use "./blocks/burger-btn";
+@use "./blocks/breadcrumb";
+@use "./blocks/link-btn";
+@use "./blocks/list-nav.scss";
+@use "./blocks/switch";
+@use "./blocks/form-filter";
+
+
+
+@use "./blocks/header.scss";
+@use "./blocks/footer.scss";
+@use './blocks/products';
+@use './blocks/panel-aside';
+
+@use "./blocks/hero";
+@use "./blocks/slider";
+@use "./blocks/list-products";
+@use "./blocks/sort";
+
+html {
+  overflow-y: scroll;
+}
+
+body {
+  min-height: calc(100vh + 1px);
+  background-color: var(--bg-page);
+  font-family: "Inter", sans-serif;
+}
+

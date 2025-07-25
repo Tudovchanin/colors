@@ -1,0 +1,53 @@
+.no-scroll {
+  overflow: hidden !important;
+  height: 100%;
+}
+
+.x-center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.wrapper {
+  max-width: 1840px;
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+.no-select {
+  user-select: none;
+}
+
+.d-none {
+  display: none;
+}
+
+.ghost-mode {
+  opacity: 0.4;
+  pointer-events: none;
+}
+
+.overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 500;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.sr-only-text {
+  font-size: 1px;
+  color: transparent;
+}
+
+.sr-only {
+  position: absolute !important;
+  width: 1px !important;
+  height: 1px !important;
+  padding: 0 !important;
+  margin: -1px !important;
+  overflow: hidden !important;
+  clip: rect(0, 0, 0, 0) !important;
+  clip-path: inset(50%) !important;
+  white-space: nowrap !important;
+  border: 0 !important;
+}

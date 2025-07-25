@@ -1,0 +1,46 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+/* Сброс списков */
+ul,
+ol {
+  list-style: none;
+}
+
+/* Сброс заголовков */
+h1, h2, h3, h4, h5, h6 {
+  font-weight: normal;
+  font-size: inherit;
+}
+
+/* Сброс ссылок */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Кнопки и элементы формы */
+button,
+input,
+select,
+textarea {
+  font: inherit;
+  color: inherit;
+  background: none;
+  border: none;
+  outline: none;
+}
+
+/* Картинки */
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}

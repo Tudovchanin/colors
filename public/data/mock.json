@@ -1,0 +1,165 @@
+[
+  {
+    "name": "Mock",
+    "description": "description 1",
+    "price": "484.69",
+    "in_stock": true,
+    "in_contract": false,
+    "is_exclusive": false,
+    "is_sale": true,
+    "is_new": true,
+    "created_at": "2024-08-13T19:39:01.994Z",
+    "id": "1",
+    "img_name": "paint-1"
+  },
+  {
+    "name": "Краска Wallquest, Brownsone MS90102",
+    "description": "description 2",
+    "price": "83.55",
+    "in_stock": true,
+    "in_contract": false,
+    "is_exclusive": false,
+    "is_sale": false,
+    "is_new": true,
+    "created_at": "2024-07-31T17:07:59.946Z",
+    "id": "2",
+    "img_name": "paint-2"
+
+  },
+  {
+    "name": "Краска Wallquest, Brownsone MS90102",
+    "description": "description 3",
+    "price": "320.59",
+    "in_stock": false,
+    "in_contract": false,
+    "is_exclusive": false,
+    "is_sale": false,
+    "is_new": true,
+    "created_at": "2024-08-13T21:26:20.725Z",
+    "id": "3",
+    "img_name": "paint-3"
+  },
+  {
+    "name": "Краска Wallquest, Brownsone MS90102",
+    "description": "description 4",
+    "price": "850.19",
+    "in_stock": false,
+    "in_contract": false,
+    "is_exclusive": false,
+    "is_sale": false,
+    "is_new": true,
+    "created_at": "2025-05-20T09:25:36.645Z",
+    "id": "4",
+    "img_name": "paint-4"
+
+  },
+  {
+    "name": "name 5",
+    "description": "description 5",
+    "price": "529.05",
+    "in_stock": false,
+    "in_contract": false,
+    "is_exclusive": false,
+    "is_sale": false,
+    "is_new": false,
+    "created_at": "2025-02-25T12:12:03.437Z",
+    "id": "5",
+    "img_name": "paint-5"
+
+  },
+  {
+    "name": "name 6",
+    "description": "description 6",
+    "price": "434.49",
+    "in_stock": false,
+    "in_contract": false,
+    "is_exclusive": false,
+    "is_sale": false,
+    "is_new": false,
+    "created_at": "2025-05-29T14:18:31.225Z",
+    "id": "6",
+    "img_name": "paint-6"
+  },
+  {
+    "name": "Mock",
+    "description": "description 1",
+    "price": "484.69",
+    "in_stock": true,
+    "in_contract": false,
+    "is_exclusive": false,
+    "is_sale": true,
+    "is_new": true,
+    "created_at": "2024-08-13T19:39:01.994Z",
+    "id": "12",
+    "img_name": "paint-1"
+  },
+  {
+    "name": "Краска Wallquest, Brownsone MS90102",
+    "description": "description 2",
+    "price": "83.55",
+    "in_stock": true,
+    "in_contract": false,
+    "is_exclusive": false,
+    "is_sale": false,
+    "is_new": true,
+    "created_at": "2024-07-31T17:07:59.946Z",
+    "id": "22",
+    "img_name": "paint-2"
+
+  },
+  {
+    "name": "Краска Wallquest, Brownsone MS90102",
+    "description": "description 3",
+    "price": "320.59",
+    "in_stock": false,
+    "in_contract": false,
+    "is_exclusive": false,
+    "is_sale": false,
+    "is_new": true,
+    "created_at": "2024-08-13T21:26:20.725Z",
+    "id": "23",
+    "img_name": "paint-3"
+  },
+  {
+    "name": "Краска Wallquest, Brownsone MS90102",
+    "description": "description 4",
+    "price": "850.19",
+    "in_stock": false,
+    "in_contract": false,
+    "is_exclusive": false,
+    "is_sale": false,
+    "is_new": true,
+    "created_at": "2025-05-20T09:25:36.645Z",
+    "id": "24",
+    "img_name": "paint-4"
+
+  },
+  {
+    "name": "name 5",
+    "description": "description 5",
+    "price": "529.05",
+    "in_stock": false,
+    "in_contract": false,
+    "is_exclusive": false,
+    "is_sale": false,
+    "is_new": false,
+    "created_at": "2025-02-25T12:12:03.437Z",
+    "id": "25",
+    "img_name": "paint-5"
+
+  },
+  {
+    "name": "name 6",
+    "description": "description 6",
+    "price": "434.49",
+    "in_stock": false,
+    "in_contract": false,
+    "is_exclusive": false,
+    "is_sale": false,
+    "is_new": false,
+    "created_at": "2025-05-29T14:18:31.225Z",
+    "id": "62",
+    "img_name": "paint-6"
+  }
+
+]

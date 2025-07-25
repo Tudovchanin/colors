@@ -1,0 +1,36 @@
+
+
+
+.cart-button{
+ 
+  cursor: pointer;
+  &--add {
+    width: 80px;
+    height: 32px;
+    border-radius: 8px;
+    background-color: hsla(149,30%,61%,1);
+    background-image: url('/images/add.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  &--increase, 
+  &--decrease {
+   width: 40px;
+   height: 24px;
+   border-radius: 4px;
+   background-color: var(--secondary-color);
+   background-repeat: no-repeat;
+   background-position: center;
+  }
+  &--increase {
+    background-image: url('/public/images/add.svg');
+  }
+
+  &--decrease {
+    background-image: url('/public/images/minus.svg');
+
+  }
+
+ 
+}
