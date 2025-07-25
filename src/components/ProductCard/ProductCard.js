@@ -20,7 +20,7 @@ export class ProductCard {
   _createImg(product) {
     const img = document.createElement("img");
     img.className = `${this.classNameCard}__img`;
-    img.src = `/images/${product.img_name}.${this.extensionImg}`;
+    img.src = `${import.meta.env.BASE_URL}images/${product.img_name}.${this.extensionImg}`;
     img.alt = product.name;
     return img;
   }
