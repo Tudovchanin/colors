@@ -1,7 +1,8 @@
 # colors
 
-выв
-## Ссылка на проект
+
+## Ссылка на проект  
+https://tudovchanin.github.io/colors/  
 
 
 ## Как начать
