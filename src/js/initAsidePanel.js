@@ -81,8 +81,8 @@ export function initAsidePanel() {
   };
 
   // Обновление текста общего количества товаров с правильным склонением
-  const updateTotalPaints = () => {
-    const count = storeCart.getQuantityProduct();
+  const updateTotalPaints = (value = null) => {
+    const count = value !== null? value : storeCart.getQuantityProduct();
     const str = declOfNum(count, ["товар", "товара", "товаров"]);
     $totalPaints.textContent = count + " " + str;
   };
@@ -109,6 +109,19 @@ export function initAsidePanel() {
       "₽";
     return sum;
   };
+
+  const getUpdateQuantityCart = ()=> {
+    const newCartState = { ...storeCart.cart };
+    for (const keyId in pendingDeletionItems) {
+      if (Object.hasOwnProperty.call(pendingDeletionItems, keyId)) {
+        delete newCartState[keyId];
+      }
+    }
+    const quantityPaints =  Object.values(newCartState).reduce((acc, value) => {
+      return acc + value
+    }, 0)
+    return quantityPaints;
+  }
 
   // Переключение состояний кнопок удаления/восстановления и opacity карточки товара
   const handleDeleteRestore = (
@@ -164,6 +177,8 @@ export function initAsidePanel() {
       const selector = ".panel-aside__item-restore";
       handleDeleteRestore(targetObj, selector, "delete");
       $totalPrice.textContent = calculateTheAmount();
+
+      updateTotalPaints(getUpdateQuantityCart());
       return;
     }
 
@@ -171,6 +186,7 @@ export function initAsidePanel() {
       const selector = ".panel-aside__item-delete";
       handleDeleteRestore(targetObj, selector, "restore");
       $totalPrice.textContent = calculateTheAmount();
+      updateTotalPaints(getUpdateQuantityCart());
       return;
     }
 
@@ -178,6 +194,7 @@ export function initAsidePanel() {
       storeCart.add(paintId);
       $quantity.textContent = storeCart.cart[paintId];
       $totalPrice.textContent = calculateTheAmount();
+      updateTotalPaints();
     }
 
     if (e.target.classList.contains("cart-button--decrease")) {
@@ -186,6 +203,7 @@ export function initAsidePanel() {
       storeCart.remove(paintId);
       $quantity.textContent = storeCart.cart[paintId];
       $totalPrice.textContent = calculateTheAmount();
+      updateTotalPaints();
     }
   });
     // Открытие панели: вывод товаров, обновление счетчиков и блокировка прокрутки страницы
