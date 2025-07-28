@@ -1,4 +1,8 @@
 .header {
+  position: fixed;
+  z-index: 500;
+  width: 100vw;
+  background-color: var(--primary-color);
   color: var(--text-dark);
 
   &__content {
